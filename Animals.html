@@ -1,0 +1,717 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Park Animals & Plants</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/stylesheet.css" >
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/c77b86ccf1.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-image:url(picture/backgroundimages.jpg)">
+<header>
+<div>
+<img id="navimg" src="picture/navimg.jpg"  alt="navbar" >
+
+<div class="row">
+<div class="col-6">
+<img src="picture/zoologo.png" width="300px" height="100px" style="padding:5% 0 0 10%">
+</div>
+<div class="col-6 searchicon">
+<input type="search" id="search" placeholder="  Search..." />
+</div>
+</div>
+	<nav class="navbar navbar-expand-md navbar-light" >
+  <button class="navbar-toggler" id="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" id="navbar2">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"id="navbar1">SAFARI TOURS
+        </a>
+        <ul class="dropdown-menu" style="width:700px">
+                <div style="float:left">
+                <li><a href="bhssafari.html" id="navbar3"> <img src="picture/bdlogo.png" width="120px" height="100px" style="display:inline">&emsp;<b>Behind-The-Scenes Safari</b></a></li>
+                <li><a href="cartsafari.html" id="navbar3"> <img src="picture/cartlogo.png" width="120px" height="100px" style="display:inline">&emsp;<b>Cart Safari</b></a></li>
+                <li><a href="caravan safari.html" id="navbar3"> <img src="picture/caravanlogo.jpg" width="120px" height="100px" style="display:inline">&emsp;<b>Caravan Safari</b></a></li>
+                <li><a href="junglesafari.html"  id="navbar3"> <img src="picture/jrlogo.png" width="110px" height="90px" style="display:inline">&emsp;<b>Jungle Ropes Safari</b></a></li>
+                </div>
+                <div style="float:left">
+                <li><a href="cheetahSafari.html" id="navbar3"> <img src="picture/bdlogo.png" width="120px" height="100px" style="display:inline">&emsp;<b>Cheetah Safari</b></a></li>
+                <li><a href="flightsafari.html" id="navbar3"> <img src="picture/flightlinelogo.png" width="120px" height="100px" style="display:inline">&emsp;<b>Flight Lines Safari</b></a></li>
+                <li><a href="roarsafari.html" id="navbar3"> <img src="picture/roarlogo.png" width="120px" height="100px" style="display:inline">&emsp;<b>Roar & Snore Safari</b></a></li>
+                <li><a href="ultimatesafari.html"  id="navbar3"> <img src="picture/jrlogo.png" width="110px" height="90px" style="display:inline">&emsp;<b>Ultimate Safari</b></a></li>
+                </div>
+              </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="navbar1">EXPERIENCES
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="width:300px">
+                <li id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>African Tram</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Animal Encounter</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Balloon Safari</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Conservation Carousel</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Play Areas</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Shows</b></a></li>
+                </ul>>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  id="navbar1">VISITOR INFO
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown"  style="width:300px">
+                <li  id="navbar4"><a href="#"class="dropdown-item" id="navbar4"><b>Hours & Direction</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Guest Services</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>FAQ</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Park Map</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Mobile App</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Dinning</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Guest With Disabilite</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Shows</b></a></li>
+                </ul>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="Animals.html" id="navbar1">PARK ANIMALS & PLANTS </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  id="navbar1">VIDEOS & CAMS
+             
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown"  style="width:200px">
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Condor Cam</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Elephant Cam</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Tiger Cam</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Penguin Cam</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Ape Cam</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Koala Cam</b></a></li>
+                <li  id="navbar4"><a href="#" class="dropdown-item" id="navbar4"><b>Polar Cam</b></a></li>
+                </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="Contact Us.html" id="navbar1">CONTACT US
+                </a>
+      </li>
+    </ul>
+    <a href="membership.html" class=" btn btn-primary" style="margin:0 0 2% 11%; opacity:0.7; border-radius:5px">MemberShip</a>
+</nav>
+
+</div>
+</header>
+<div>
+<img src="picture/animalsslider.jpg" width="100%">
+</div>
+<div style="background-color:#009B4E; height:10%">
+<div style="background-color:#F04E00; width:30%; margin-left:10%; height:100% ; text-align:center; pading-top:5%; color:#FFF">
+<p style="font-size:35px"> Park Animals & Plants</p>
+</div>
+</div>
+<section>
+<div style="width:80%; background-color:#FFF; margin-left:10%">
+<div style="padding:50px">
+<h1>FIND ANIMALS</h1>
+<p>Find your favorite animals at the Safari Park! Found the animal you’re looking for? Add it to your itinerary with the “Add to my day” button!</p>
+<div class="row">
+<div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#" style="color:#FFF; font-weight:bold"><span>Abdim's Stork</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/1.jpg" alt="Abdim's Stork" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">African Rhinos</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/2.jpg" alt="African Rhinos" height="200px">
+         </div>
+      </div>
+     <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Antelope</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/3.jpg" alt="Antelope" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Arabian Oryx</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/4.jpg" alt="Arabian Oryx" height="200px">
+         </div>
+      </div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style=" background-color:#D24400; height:80px">
+            	<a href="#"><span style="color:#FFF; font-weight:bold; position:absolute">Baja Garden & Old World Succulant Garden</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/5.jpg" alt="Baja Garden & Old World Succulant Garden" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Bald Eagle</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/6.jpeg" alt="Bald Eagle" height="200px">
+         </div>
+      </div>
+     <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Big Horn Sheep</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/7.jpg" alt="Big Horn Sheep" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Bonsai Pavilion</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/8.jpg" alt="Bonsai Pavilion" height="200px">
+         </div>
+      </div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Burrowing Owl</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/9.jpg" alt="Burrowing Owl" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Butterfly</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/10.jpg" alt="Butterfly" height="200px">
+         </div>
+      </div>
+     <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">California Cobdor</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/11.jpg" alt="California Cobdor" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Camel</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/12.jpg" alt="Camel" height="200px">
+         </div>
+      </div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Cheetah</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/13.jpg" alt="Camel" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Dik Dik</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/14.jpg" alt="Dik Dik" height="200px">
+         </div>
+      </div>
+     <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Duiker</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/15.jpg" alt="Duiker" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Egyptian Vulture</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/16.jpg" alt="Egyptian Vulture" height="200px">
+         </div>
+      </div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Elephant</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/17.jpeg" alt="Elephant" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Epiphyllum Trail</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/18.jpg" alt="Epiphyllum Trail" height="200px">
+         </div>
+      </div>
+     <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Flamingo</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/19.jpg" alt="Flamingo" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Gerenuk</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/20.jpg" alt="Gerenuk" height="200px">
+         </div>
+      </div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Giraffe</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/21.jpg" alt="Giraffe" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Gorilla</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/22.jpg" alt="Gorilla" height="200px">
+         </div>
+      </div>
+     <div class="col-md-3">
+         <div class="card">
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400; height:73px">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Greater One-Horned Rhino</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/23.jpg" alt="Greater One-Horned Rhino" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Herb Garden</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/24.jpg" alt="Herb Garden" height="200px">
+         </div>
+      </div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Heron</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/25.jpg" alt="" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Hidden Jungle</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/26.jpg" alt="Hidden Jungle" height="200px">
+         </div>
+      </div>
+     <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Hornbill</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/27.jpg" alt="Hornbill" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Kangaroos</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/28.jpg" alt="Kangaroos" height="200px">
+         </div>
+      </div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Lemur</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/29.jpg" alt="Lemur" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Lion</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/30.jpg" alt="Lion" height="200px">
+         </div>
+      </div>
+     <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Lorikeet</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/31.jpg" alt="Lorikeet" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Magpie Goose</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/32.jpg" alt="Magpie Goose" height="200px">
+         </div>
+      </div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400; height:73px">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Matschie's Tree Kangaroo</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/33.jpg" alt="Matschie's Tree Kangaroo" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Meerkat</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/34.jpg" alt="Meerkat" height="200px">
+         </div>
+      </div>
+     <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Mombasa Lagoon</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/35.jpg" alt="Mombasa Lagoon" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Nativescapes Garden</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/36.jpg" alt="Nativescapes Garden" height="200px">
+         </div>
+      </div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Nile Lechwe</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/37.jpg" alt="Nile Lechwe" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Okapi</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/38.jpg" alt="Okapi" height="200px">
+         </div>
+      </div>
+     <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Ostrich</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/39.jpg" alt="Ostrich" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Pelican</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/40.jpg" alt="Pelican" height="200px">
+         </div>
+      </div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Pheasant</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/41.jpg" alt="Pheasant" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Pink Pigeon</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/42.jpg" alt="Pink Pigeon" height="200px">
+         </div>
+      </div>
+     <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Platypus</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/43.jpg" alt="Platypus" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Przewalski's Horse</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/44.jpg" alt="Przewalski's Horse" height="200px">
+         </div>
+      </div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Radjah Shelduck</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/45.jpg" alt="Radjah Shelduck" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Red River Hog</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/46.jpg" alt="Red River Hog" height="200px">
+         </div>
+      </div>
+     <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Rodrigues Fruit Bat</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/47.jpg" alt="Rodrigues Fruit Bat" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Rupell's Vulture</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/48.jpg" alt="Rupell's Vulture" height="200px">
+         </div>
+      </div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Secretary Bird</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/49.jpg" alt="Secretary Bird" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Somali Wild Ass</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/50.jpg" alt="Somali Wild Ass" height="200px">
+         </div>
+      </div>
+     <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Southern Cassowary</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/51.jpg" alt="Southern Cassowary" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Tiger</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/52.jpg" alt="Tiger" height="200px">
+         </div>
+      </div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Turaco</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/53.jpg" alt="Turaco" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Warthog</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/54.jpg" alt="Warthog" height="200px">
+         </div>
+      </div>
+     <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Wild Cattle</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/55.jpg" alt="Development" height="200px">
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="card" >
+            <div class="card-header py-4" style="text-align:center; background-color:#D24400;">
+            	<a href="#"><span style="color:#FFF; font-weight:bold">Zebra</span></a>
+            </div>
+            
+            <img class="card-img-bottom" src="picture/56.jpg" alt="Development" height="200px">
+         </div>
+      </div>
+</div>
+</div>
+
+<center><a href="Word File/Info.docx" download> <button class="btn btn-success">More Info About Animals</button>
+</a></center><br><br>
+</div>
+
+</section>
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+<div>
+<img id="footerimg" src="picture/navimg.jpg"  alt="Footer Image" >
+<div>
+<br>
+<ul>
+<li style="display:inline-block"><a href="#" id="footfonts">About San Diego Zoo Global</a></li>
+<li  style="display:inline-block"><a href="#"  id="footfonts">Education</a></li>
+<li  style="display:inline-block"><a href="#"  id="footfonts">Careers</a></li>
+<li  style="display:inline-block"><a href="#"  id="footfonts">Accesseibility Statement</a></li>
+</ul>
+</div>
+<div>
+<img src="picture/zoologo.png" width="280px" height="70px" style="margin:0 0 0 6%">
+</div>
+<br>
+<div>
+<p id="footercompany">2020 San Diego Zoo Global</p>
+<p style="display:inline-block"><a href="Contact Us.html" id="footfonts1">Cotact Us</a></p>
+<p  style="display:inline-block"><a href="#"  id="footfonts1">Privacy Policy</a></p>
+<p  style="display:inline-block"><a href="#"  id="footfonts1">Terms of Use</a></p>
+<p  style="display:inline-block"><a href="#"  id="footfonts1">State Disclosure</a></p>
+
+</div>
+
+</div>
+</footer>
+</body>
+</html>

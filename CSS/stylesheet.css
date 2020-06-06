@@ -1,0 +1,154 @@
+<style>
+body{
+	background-image:url(picture/backgroundimages.jpg);
+}
+#navimg{
+	z-index:-1;
+	position:absolute;
+	width:100%;
+	height:29%;
+	max-height:70%;
+}
+#footerimg{
+	z-index:-1;
+	position:absolute;
+	width:100%;
+	height:45%;
+	max-height:45%;
+}
+#navbar-toggler{
+	  background-color:#FFF;
+}
+#navbar1{
+	color:#F60;
+	padding:10px;
+	font-weight:bold;
+}
+#navbar2:hover{
+	color:#000;
+	background-color:#F04E00;
+	opacity:0.7;
+	text-decoration:none;
+	padding:10px;
+}
+#navbar2{
+	color:#F60;
+	margin-left:50px;
+	text-decoration:none;
+	padding:10px;
+	font-weight:bold;
+}
+#navbar1:hover{
+	color:#000;
+	background-color:#F04E00;
+	opacity:0.7;
+	text-decoration:none;
+	padding:10px;
+}
+#navbar3{
+	color:#00753A;
+	margin:10px;
+}
+#navbar4{
+	color:#00753A;
+	margin:20px 20px 0 20px;
+}
+#campics{
+	border-radius:50%;
+	height:200px;
+}
+
+#brands{
+	font-size:30px;
+	color:#FFF;
+	margin:0px 0px 0px 30px;
+	background-color:#4242FF;
+	padding:15px;
+	border-radius:50%;
+}
+#brands1{
+	background-color:#888;
+	font-size:30px;
+	color:#FFF;
+	margin:0px 0px 0px 30px;
+	padding:15px;
+	border-radius:50%;
+}
+#brands2{
+	background-color:#53A9FF;
+	font-size:30px;
+	color:#FFF;
+	margin:0px 0px 0px 30px;
+	padding:15px;
+	border-radius:50%;
+}
+#brands3{
+	background-color:#FF0606;
+	font-size:30px;
+	color:#FFF;
+	margin:0px 0px 0px 30px;
+	padding:15px;
+	border-radius:50%;
+}
+#footfonts{
+	display:inline-block;
+	color:#FFF;
+	font-size:20px;
+	margin-left:50px;
+}
+#footfonts1{
+	display:inline-block;
+	color:#FFF;
+	font-size:20px;
+	margin-left:20px;
+}
+#footercompany{
+	display:inline-block;
+	color:#FFF;
+	margin-left:80px;
+}
+#search{
+ 	float:right;
+	margin:7% 4% 0 0;
+	border-radius:8px;
+	width:40%;
+}
+#col2{
+	border-radius:7px;
+	width:40%;
+	padding:5px;
+}
+input[type=submit]{
+	text-align:center;
+	padding:10px;
+	width:200px;
+	margin-top:10px;
+	margin-left:20%;
+	background-color:transparent;
+	color:#000;
+	border:solid;
+	border-color:#FFF;
+	border-radius:5px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+}
+input[type=submit]:hover{
+	background-color:#F04E00;
+	opacity:0.7;
+}
+  #safarinav{
+	   display:block; 
+	   font-size:24px;
+	   color:#000; 
+	   text-decoration:none;
+	   padding:10px;
+	   }
+.active2,#safarinav:hover{
+	padding:10px; 
+	   font-size:24px;
+	   background-color:#F00;
+	   color:#000; 
+	   text-decoration:none;
+	   }
+</style>
+
